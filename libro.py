@@ -1,4 +1,3 @@
-
 class Lib:
     id = int
     genero = str
