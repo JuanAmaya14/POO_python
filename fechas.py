@@ -1,5 +1,8 @@
-from Va_Fechas import Entrega
-from Va_Fechas import Devolver
+class Entrega:
+    Ent = str
+
+class Devolver:
+    Dev = str
 
 class entrega (Entrega):
     def __init__(self, Ent):

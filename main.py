@@ -8,7 +8,7 @@ if __name__ == "__main__":
 
     print("Info del lector")
 
-    Lector = lec("Juan amaya", 8457689456)
+    Lector = lec("Laisha Alexa", 8457689456)
 
     print(vars(Lector))
 
@@ -16,7 +16,7 @@ if __name__ == "__main__":
 
     print("Info del libro")
 
-    Libro = lib("100 años de soledad","Gabriel Marquez")
+    Libro = lib("Luna de pluton","Dross")
 
     print(vars(Libro))
 
@@ -34,6 +34,6 @@ if __name__ == "__main__":
 
     print("fecha de entrega a devolver")
 
-    De = devolver("10/11/2021")
+    De = devolver("10/11/2027")
 
     print(vars(De))
