@@ -1,4 +1,7 @@
-from Va_Libro import Lib
+class Lib:
+    id = int
+    genero = str
+    autor = str
 
 class lib(Lib):
     def __init__(self, genero, autor):
