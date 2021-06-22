@@ -3,7 +3,6 @@ class Lector:
     nombre = str
     documento = int
 
-    
 class lec(Lector):
     def __init__(self, nombre, documento):
         #super.__init__(nombre, documento)
